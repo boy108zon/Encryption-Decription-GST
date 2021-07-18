@@ -13,3 +13,5 @@ $certificate_file_path = "PATH OF YOUR SANDBOX OR PRODUCTION cert file.";
 $generated_key = GSTAPIENC::keygen(32);
 
 $appKey = GSTAPIENC::generateappKey(base64_decode($generated_key), $certificate_file_path);
+
+You can read more about it with the post in http://yourlearn.in and see post there
